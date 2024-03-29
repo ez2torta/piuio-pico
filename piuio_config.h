@@ -19,32 +19,32 @@ static uint32_t ws2812_color[5] = {
 // Modify these arrays to edit the pin out.
 // Map these according to your button pins.
 static const uint8_t pinSwitch[12] = {
-        19,     // P1 DL
-        21,     // P1 UL
-        10,     // P1 CN
-        6,      // P1 UR
-        8,      // P1 DR
-        17,     // P2 DL
-        27,     // P2 UL
-        2,      // P2 CN
-        0,      // P2 UR
-        4,      // P2 DR
-        15,    // Service
-        14     // Test
+        2,     // P1 DL
+        3,     // P1 UL
+        4,     // P1 CN
+        5,      // P1 UR
+        6,      // P1 DR
+        9,     // P2 DL
+        10,     // P2 UL
+        11,      // P2 CN
+        12,      // P2 UR
+        13,      // P2 DR
+        7,    // Service
+        8     // Test
 };
 
 // Map these according to your LED pins.
 static const uint8_t pinLED[10] = {
-        18,     // P1 DL
-        20,     // P1 UL
-        11,     // P1 CN
-        7,      // P1 UR
-        9,      // P1 DR
-        16,     // P2 DL
-        26,     // P2 UL
-        3,      // P2 CN
-        1,      // P2 UR
-        5       // P2 DR
+        14,     // P1 DL
+        15,     // P1 UL
+        16,     // P1 CN
+        17,      // P1 UR
+        18,      // P1 DR
+        19,     // P2 DL
+        20,     // P2 UL
+        22,      // P2 CN
+        26,      // P2 UR
+        27       // P2 DR
 };
 
 #endif //PIUIO_PICO_PIUIO_CONFIG_H
