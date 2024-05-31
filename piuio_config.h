@@ -37,14 +37,14 @@ static const uint8_t pinSwitch[12] = {
 static const uint8_t pinLED[10] = {
         18,     // P1 DL
         20,     // P1 UL
-        11,     // P1 CN
-        7,      // P1 UR
-        9,      // P1 DR
+        12,     // P1 CN
+        15,      // P1 UR
+        19,      // P1 DR
         16,     // P2 DL
         26,     // P2 UL
-        3,      // P2 CN
-        1,      // P2 UR
-        5       // P2 DR
+        17,      // P2 CN
+        14,      // P2 UR
+        13       // P2 DR
 };
 
 #endif //PIUIO_PICO_PIUIO_CONFIG_H
